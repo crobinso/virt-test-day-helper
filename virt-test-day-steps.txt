@@ -1,0 +1,81 @@
+
+
+  Virt test day schedule bits
+  ===========================
+
+
+  ##################################
+  # When the test day is scheduled #
+  ##################################
+
+- Create the new stub test page.
+    - Uncomment the under construction template at the top of the page.
+    - Remove test results
+    - Comment out IRC logs
+    - Change all Fedora release numbering
+    - Move previous test cases to 'extra tests' section
+
+- Mark the test day date as a flash card, and on your physical calendars
+- Copy the 'Project file content' to a virt-test-day project file, and clear out the one off items from this document.
+
+
+  ########################
+  # Project file content #
+  ########################
+
+- Plan for updating machines to new Fedora
+- Using the results reporting tool:
+    - https://fedoraproject.org/wiki/QA:TestdayApp
+    - Example metadata page: https://fedoraproject.org/wiki/User:Crobinso/Sandbox:F21VirtTestAppMetadata
+- Look at latest templates to see if there's any reorg we should incorporate:
+    - test day : http://fedoraproject.org/wiki/QA/Test_Days/Template
+    - test case: https://fedoraproject.org/wiki/Template:QA/Test_Case
+- Go through each existing test case manually and make sure they still work.
+- Hide the 'under construction' banner
+- Write test cases!
+    - XXX put one-off bits here
+
+
+
+  ############################
+  # Alpha release candidates #
+  ############################
+
+- Make sure testurls, pxe, kickstart, and initrd inject test works for alpha composes!
+
+
+  ###########################
+  # 2 weeks before test day #
+  ###########################
+
+- Dump the projects file content to your todo list file
+
+
+  ###########################
+  # 4 days before test day! #
+  ###########################
+
+- Run: testday.py --emails, send the output
+- Contact any community members that have been inquiring about any features, or filing bugs.
+
+
+  ########################
+  # Day before test day! #
+  ########################
+
+- Join #fedora-test-day so you have some back chat, add it to channel list
+- Add calendar reminder for end of the week to remove it from channel list
+- Run through the test cases today and record your results to break the seal on it for other folks.
+
+
+  ####################
+  # Day of test day! #
+  ####################
+
+- Nice and early, #startmeeting virt_test_day_f21
+- Set alarm on phone to do #endmeeting at like 8pm or something
+- Update IRC log link on wiki to actual log
+- Update link to very latest install media
+- Reply to previous announcements that test day is starting right now (though it's fine for people to report results later).
+- Manually track bugs filed as a result of test day, including my own
+- End of week reminder: record test day details in work-accomplishments.txt, one week from test day copy results out of tool

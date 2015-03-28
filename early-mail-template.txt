@@ -1,0 +1,17 @@
+============================================
+=== Fedora virt quick announce, and blog ===
+============================================
+
+SUB: Fedora ZZZFEDZZZ Virt Test Day scheduled for ZZZDATEZZZ
+TO: virt@lists.fedoraproject.org
+
+Hey all,
+
+Just a quick note that the Fedora ZZZFEDZZZ Virt Test Day is scheduled for ZZZDATEZZZ. The inprogress landing page is at:
+
+ZZZLINKZZZ
+
+So if you're interested in helping test new virt features, or you want to make sure that the stuff you care about isn't broken, please mark your calendars.
+
+Thanks,
+Cole

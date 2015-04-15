@@ -30,10 +30,12 @@
 - Look at latest templates to see if there's any reorg we should incorporate:
     - test day : http://fedoraproject.org/wiki/QA/Test_Days/Template
     - test case: https://fedoraproject.org/wiki/Template:QA/Test_Case
-- Go through each existing test case manually and make sure they still work.
+- Go through each existing test case manually and make sure they still work. Drop old bug references, update to point to latest fedora and latest media, etc.
 - Hide the 'under construction' banner
 - Write test cases!
-    - XXX put one-off bits here
+    - dataplane iothread stuff:
+        - see libvirt commit ee3a9620daf3dd395e4e0aed44039c5b9590efa2
+        - More stuff: https://www.redhat.com/archives/libvir-list/2015-April/msg00621.html
 
 
 
